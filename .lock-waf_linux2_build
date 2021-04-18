@@ -1,0 +1,8 @@
+argv = ['/root/.pebble-sdk/SDKs/current/sdk-core/pebble/waf', 'configure']
+environ = {'NO_GCE_CHECK': 'False', 'NVM_CD_FLAGS': '', 'PEBBLE_TOOL_VERSION': 'pebble-sdk-4.5-linux64', 'NODE_VERSION': '10.16.2', 'PEBBLE_SDK_VERSION': '4.3', 'PATH': '/opt/pebble-sdk-4.5-linux64/arm-cs-tools/bin:/opt/pebble-sdk-4.5-linux64/bin:/opt/gcc-arm-none-eabi-9-2019-q4-major/bin/:/home/.nvm/versions/node/v10.16.2/bin:/opt/pebble-sdk-4.5-linux64/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NVM_DIR': '/home/.nvm', 'PEBBLE_TOOLCHAIN_PATH': '/opt/pebble-sdk-4.5-linux64/arm-cs-tools/bin', 'HOME': '/root', '_': '/opt/pebble-sdk-4.5-linux64/.env/bin/python', 'TERM': 'xterm', 'SHLVL': '2', 'OLDPWD': '/opt/pebble-sdk-4.5-linux64', 'HOSTNAME': '4bc642f7f07b', 'PYTHONHOME': '/root/.pebble-sdk/SDKs/current/sdk-core/../.env', 'NODE_PATH': '/root/.pebble-sdk/SDKs/current/sdk-core/../node_modules', 'NVM_BIN': '/home/.nvm/versions/node/v10.16.2/bin', 'PWD': '/pebble-project', 'PEBBLE_PHONE': '192.168.18.108', 'PHONESIM_PATH': '/opt/pebble-sdk-4.5-linux64/.env//bin/pypkjs', 'NOCLIMB': '1'}
+files = ['/pebble-project/wscript']
+hash = 2423177563626642261
+options = {'files': '', 'jobs': 16, 'verbose': 0, 'nocache': False, 'progress_bar': 0, 'no_groups': False, 'distcheck_args': None, 'top': '', 'sandbox': False, 'destdir': '', 'keep': 0, 'zones': '', 'debug': False, 'prefix': '/usr/local/', 'timestamp': None, 'download': False, 'force': False, 'targets': '', 'out': ''}
+out_dir = '/pebble-project/build'
+run_dir = '/pebble-project'
+top_dir = '/pebble-project'

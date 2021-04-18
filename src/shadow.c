@@ -129,6 +129,7 @@ static void handle_minute_tick(struct tm *tick_time, TimeUnits units_changed) {
   text_layer_set_text(time_text_layer, time_text);
  
   strftime(week_text, sizeof(week_text), "//%w", tick_time);
+  if(week_text[2]=='0') week_text[2]='7';
   // week_text[0] ++;
   text_layer_set_text(week_text_layer, week_text);
   redraw_counter++;
